@@ -1,0 +1,8 @@
+services:
+  backend:
+    build:
+      image: dangtruong/demo-backend:v1.0.0
+      dockerfile: backend/Dockerfile
+    ports:
+      - 8080:8080
+

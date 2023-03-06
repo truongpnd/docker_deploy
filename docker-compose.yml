@@ -1,0 +1,8 @@
+services:
+  backend:
+    image: dangtruong/demo-backend:v1.0.0
+    build:
+      context: backend
+    ports:
+      - 8080:8080
+    
